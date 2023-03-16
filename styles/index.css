@@ -1,0 +1,280 @@
+body {
+   font-family: "Manrope", sans-serif;
+   letter-spacing: -0.03em;
+   width: 100%;
+   font-style: normal;
+   margin: 0 auto;
+}
+h1,
+h2,
+h3,
+a,
+p {
+   letter-spacing: -0.03em;
+}
+.container {
+   margin: 0 auto;
+   width: 1400px;
+   padding-left: 125px;
+}
+/* header */
+.header {
+   margin-top: 30px;
+   margin-bottom: 70px;
+}
+.header a {
+   text-decoration: none;
+   color: #121212;
+   text-transform: uppercase;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 25px;
+   margin-right: 58px;
+}
+.header a:hover {
+   border-bottom: 1px solid black;
+   opacity: 0.5;
+}
+.header img {
+   margin-right: 554.5px;
+}
+/* header end */
+
+/* main */
+.main-text {
+}
+.main-text h1 {
+   width: 956px;
+   font-weight: 400;
+   font-size: 60px;
+   line-height: 60px;
+   font-style: normal;
+   padding-bottom: 30px;
+}
+.image-text {
+   background-image: url(../first_background.png);
+   background-size: cover;
+   width: 1150px;
+   height: 500px;
+   position: relative;
+   margin-bottom: 150px;
+}
+.image-text p {
+   position: absolute;
+   width: 430px;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 27px;
+   left: 40px;
+   bottom: 40px;
+   color: white;
+}
+.about-text {
+   padding-bottom: 150px;
+}
+.about-text h2 {
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 25px;
+   text-transform: uppercase;
+   margin-bottom: 30px;
+}
+.about-text h3 {
+   width: 1048px;
+   font-weight: 400;
+   font-size: 45px;
+   line-height: 61px;
+   color: #121212;
+   padding-left: 3px;
+   padding-bottom: 30px;
+}
+.about-text > button {
+   background-color: #ad1818;
+   border: 1px solid #ad1818;
+   border-radius: 5px;
+   color: white;
+   cursor: pointer;
+}
+.about-text > button > p {
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 27px;
+   padding: 18px 34px;
+   font-family: "Manrope", sans-serif;
+}
+/* main end */
+/* projects */
+.projects h2 {
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 25px;
+   text-transform: uppercase;
+   padding-bottom: 30px;
+}
+.project h3 {
+   padding: 13px 0px;
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 41px;
+}
+.project p {
+   padding-top: 2px;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 27px;
+   color: #ad1818;
+   padding-bottom: 90px;
+   padding-left: 1px;
+   cursor: pointer;
+}
+.projects > button {
+   width: 1150px;
+   height: 153px;
+}
+.projects > button > p {
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 41px;
+   font-family: "Manrope", sans-serif;
+}
+.projects > button {
+   background-color: white;
+   color: #ad1818;
+   border: 1px solid #ad1818;
+   border-radius: 5px;
+   margin-bottom: 150px;
+}
+.projects > button:hover {
+   background-color: #ad1818;
+   color: white;
+   cursor: pointer;
+}
+/* projects end */
+/* services */
+.container-service {
+   width: 100%;
+   background-color: #121212;
+}
+.services {
+   padding-left: 145px;
+}
+.services h2 {
+   color: white;
+   padding-top: 151px;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 25px;
+   text-transform: uppercase;
+   padding-bottom: 34px;
+   padding-left: 1.5px;
+}
+.service {
+   padding-bottom: 60px;
+}
+.service h3 {
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 41px;
+   color: #ffffff;
+   margin-left: 3px;
+   margin-top: 12.6px;
+}
+.service:nth-last-child(1) {
+   padding-bottom: 150px;
+}
+/* services end */
+/* contact */
+.container-contact {
+   width: 100%;
+   height: 717px;
+   background-image: url(../second_background.png);
+   position: relative;
+   background-size: cover;
+   margin-bottom: 150px;
+}
+.container-contact h3 {
+   position: absolute;
+   left: 145px;
+   bottom: 60px;
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 41px;
+   color: #ffffff;
+   width: 443px;
+}
+.contact {
+   margin-left: 144px;
+}
+.contact img {
+   margin-left: -4px;
+   margin-bottom: 10px;
+}
+.contact p {
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 25px;
+   text-transform: uppercase;
+   margin-bottom: 32px;
+}
+.contact h2 {
+   font-weight: 400;
+   font-size: 60px;
+   line-height: 60px;
+   margin-bottom: 30px;
+}
+.contact h3 {
+   font-weight: 400;
+   font-size: 60px;
+   line-height: 60px;
+   padding-bottom: 160px;
+   opacity: 0.5;
+}
+.contact h2 > a,
+h3 > a {
+   color: black;
+   text-decoration: none;
+}
+.contact h3 a:hover {
+   border-bottom: 1px solid black;
+}
+/* contact end */
+/* footer */
+footer {
+   background-color: #121212;
+   width: 100%;
+   height: 229px;
+}
+.footer-url {
+   padding-top: 60px;
+   margin-left: 490px;
+}
+.one_link {
+   margin-right: 51.5px;
+}
+.two_link {
+   margin-right: 53.5px;
+}
+.three_link {
+   margin-right: 53px;
+}
+.footer-url a {
+   color: #ffffff;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 25px;
+}
+.footer-url a:hover {
+   opacity: 0.5;
+}
+.text-end {
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 27px;
+   color: #ffffff;
+   opacity: 0.5;
+   padding-top: 87px;
+   margin-left: 529px;
+}
+/* footer end */
