@@ -5,6 +5,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Metrika</title>
+      <link rel="icon" href="/resourses/Метрика.png" />
       <link rel="stylesheet" href="styles/reset.css" />
       <link rel="stylesheet" href="styles/index.css" />
       <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -52,26 +53,38 @@
                <h2>проекты</h2>
                <ul>
                   <li class="project">
-                     <img
-                        src="./resourses/project_one.png"
-                        alt="ЖК ПРАВОБЕРЕЖНЫЙ"
-                     />
+                     <picture>
+                        <source media="(max-width:700px )" srcset="resourses/mobil-photo/project_one_mobile.png ">
+                        <source media="(max-width:1000px )" srcset="resourses/tablet-photo/project_one_tablet.png ">
+                        <img
+                           src="./resourses/desktop-photo/project_one.png"
+                           alt="ЖК ПРАВОБЕРЕЖНЫЙ"
+                        />
+                     </picture>
                      <h3>ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
                      <p>Подробнее →</p>
                   </li>
                   <li class="project">
-                     <img
-                        src="./resourses/project_two.png"
-                        alt="ЖК НОРВЕЖСКИЙ ПАРК"
-                     />
+                     <picture>
+                        <source media="(max-width:700px )" srcset="resourses/mobil-photo/project_two_mobile.png ">
+                        <source media="(max-width:1000px )" srcset="resourses/tablet-photo/project_two_tablet.png ">
+                        <img
+                           src="./resourses/desktop-photo/project_two.png"
+                           alt="ЖК НОРВЕЖСКИЙ ПАРК"
+                        />
+                     </picture>
                      <h3>ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
                      <p>Подробнее →</p>
                   </li>
                   <li class="project">
-                     <img
-                        src="./resourses/project_three.png"
+                     <picture>
+                        <source media="(max-width:700px )" srcset="resourses/mobil-photo/project_three_mobile.png ">
+                        <source media="(max-width:1000px )" srcset="resourses/tablet-photo/project_three_tablet.png ">
+                        <img
+                        src="./resourses/desktop-photo/project_three.png"
                         alt="ЖК СОСНОВСКИЕ ОЗЕРA"
-                     />
+                        />
+                     </picture>
                      <h3>ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
                      <p>Подробнее →</p>
                   </li>
@@ -79,33 +92,98 @@
                <button><p>Смотреть все проекты</p></button>
             </div>
          </div>
-         <!-- <div class="container-service" id="service">
+      <div class="container-service" id="service">
+         <div class="service-block">
+            <h2>услуги</h2>
             <div class="services">
-               <h2>услуги</h2>
-               <ul>
-                  <li class="service">
-                     <img src="./resourses/service_one.png" alt="планировка" />
-                     <h3>Планировочное решение — от 2500₽/м²</h3>
-                  </li>
-                  <li class="service">
-                     <img src="./resourses/service_two.png" alt="дизайн" />
-                     <h3>Дизайн-проект — от 3000₽/м²</h3>
-                  </li>
-                  <li class="service">
-                     <img src="./resourses/service_three.png" alt="надзор" />
-                     <h3>Авторский надзор — от 30 000₽ в месяц</h3>
-                  </li>
-                  <li class="service">
-                     <img
-                        src="./resourses/service_four.png"
-                        alt="комплектация"
-                     />
-                     <h3>Комплектация — 5% от стоимости спецификации</h3>
-                  </li>
-               </ul>
+               <div class="service">
+                  <div class="background-one">
+                     <h2>от 2500₽/м²</h2>
+                  </div>
+                  <h4>Планировочное решение</h4>
+               </div>
+               <div class="service">
+                  <div class="background-two">
+                     <h2>от 3000₽/м²</h2>
+                  </div>
+                  <h3>Дизайн-проект</h3>
+               </div>
+               <div class="service">
+                  <div class="background-three">
+                     <h2>от 30 000₽/мес</h2>
+                  </div>
+                  <h3>Авторский надзор</h3>
+               </div>
+               <div class="service">
+                  <div class="background-four">
+                     <h2>5% от стоимости</h2>
+                  </div>
+                  <h3>Комплектация</h3>
+               </div>
+            </div>
+            <button class="order-service">Заказать услугу</button>
+         </div>
+      </div>
+      <div class="container_reviews">
+         <div class="block_reviews">
+            <div class="reviews">
+               <p class="reviews_title">отзывы</p>
+               <div class="row">
+                  <div class="review">
+                     <h2>Ксения, проект 65 кв.м.</h2>
+                     <h3>
+                        Хочу искренне поблагодарить Вас за работу, проделанную
+                        на высоком уровне! Нам с мужем было очень приятно с Вами
+                        работать! Спасибо за Ваше умение правильно слышать
+                        пожелания своих клиентов и выполнять работу, которая
+                        превосходит все ожидания! Мы даже не надеялись, что на
+                        34 кв.м. кто-то сможет нам грамотно разместить все, что
+                        мы хотим и даже больше! <br />
+                        <br />
+                        Вам удалось это просто превосходно! Нам лишь осталось
+                        воплотить красоту, которую Вы нам создали в жизнь и
+                        поделиться с Вами результатом!
+                     </h3>
+                  </div>
+                  <div class="review">
+                     <h2>Регина, проект 89 кв.м.</h2>
+                     <h3>
+                        Спасибо большое за такой классный проект! Все стильно,
+                        круто, продумано! Очень приятно было с вами работать!
+                        Спасибо, что терпели наши «хочу это, хочу то» в поисках
+                        идеального для нас ремонта. Здорово, что мы нашли такого
+                        основательного, ответственного и внимательного к деталям
+                        дизайнера! <br /><br />
+                        Хочется скорее реализовать проект и наслаждаться
+                        современной, функциональной и красивой квартирой! Будем
+                        рекомендовать Вас всем друзьям и знакомым!
+                     </h3>
+                  </div>
+               </div>
+               <div class="column">
+                  <div class="review_column">
+                     <h2>Яна, проект 120 кв.м.</h2>
+                     <h3>
+                        Хотелось бы сказать большое спасибо за проделанную
+                        работу! В задачу Марины входила разработка
+                        дизайн-проекта в минимальные сроки, и мне, конечно, не
+                        хотелось при этом потерять качество выполнения работы.
+                        Но волнения были напрасны: все вопросы решались
+                        оперативно, всегда предлагалось несколько вариантов
+                        решения, а также предоставлялись комментарии, какой
+                        способ решения будет более подходящим. <br /><br />
+                        В итоге проект был сдан в оговоренный срок, и мне просто
+                        не терпится приступить к его реализации! Проект
+                        получился очень стильным и современным! Буду
+                        рекомендовать Вас тем, кому еще предстоит это непростое
+                        дело - ремонт!
+                     </h3>
+                  </div>
+               </div>
             </div>
          </div>
-         <div class="container-contact">
+      </div>
+      <!-- <div class="container-contact">
             <h3>Проект&nbsp;&nbsp;Двухкомнатной квартиры в ЖК Лесной Пейзаж</h3>
          </div>
          <div class="contact" id="contact">
