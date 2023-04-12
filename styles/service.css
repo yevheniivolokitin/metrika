@@ -1,0 +1,152 @@
+.container-service {
+   width: 100%;
+   background-color: #121212;
+}
+
+.service-block {
+   margin-left: 125px;
+   width: 80%;
+   max-width: 1200px;
+}
+.services {
+   display: flex;
+   flex-wrap: wrap;
+   column-gap: 11px;
+}
+.service {
+   width: calc(50% - 7px);
+}
+
+.background-one {
+   background-image: url(../resourses/desktop-photo/first-service.png);
+   position: relative;
+   width: 100%;
+   height: 389px;
+   background-size: cover;
+}
+.background-two {
+   background-image: url(../resourses/desktop-photo/second-service.png);
+   position: relative;
+   width: 100%;
+   height: 389px;
+   background-size: cover;
+}
+.background-three {
+   background-image: url(../resourses/desktop-photo/three-service.png);
+   position: relative;
+   width: 100%;
+   height: 389px;
+   background-size: cover;
+}
+.background-four {
+   background-image: url(../resourses/desktop-photo/four-service.png);
+   position: relative;
+   width: 100%;
+   height: 389px;
+   background-size: cover;
+}
+.background-two > h2,
+.background-one > h2,
+.background-three > h2,
+.background-four > h2 {
+   position: absolute;
+   top: 30px;
+   left: 30px;
+   color: white;
+   background-color: #ad1818;
+   padding: 5px 22px 5px 20px;
+   border-radius: 5px;
+   font-size: 22px;
+   line-height: 30px;
+}
+.service > h3 {
+   color: white;
+   font-size: 30px;
+   line-height: 41px;
+   padding-top: 25px;
+   padding-bottom: 85px;
+}
+.service-block > h2 {
+   color: white;
+   font-size: 18px;
+   line-height: 25px;
+   padding-bottom: 30px;
+   padding-top: 151px;
+   text-transform: uppercase;
+}
+.service h4 {
+   padding-bottom: 44px;
+   color: white;
+   width: 234px;
+   font-size: 30px;
+   line-height: 41px;
+   padding-top: 25px;
+}
+.order-service {
+   font-family: "Manrope";
+   font-size: 30px;
+   line-height: 41px;
+   margin-top: 31px;
+   margin-bottom: 150px;
+   width: 100%;
+   height: 153px;
+   background: #ad1818;
+   border-radius: 5px;
+   border: 1px solid black;
+   color: white;
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1199px) {
+   .service-block {
+      margin-left: 0px;
+      padding-left: 17px;
+      padding-right: 12px;
+   }
+   .service-block {
+      width: 100%;
+   }
+   .order-service {
+      margin-top: 0px;
+   }
+   .service > h3 {
+      padding-bottom: 80px;
+   }
+   .service h4 {
+      padding-top: 15px;
+      width: 100%;
+   }
+   .services {
+      column-gap: 8px;
+   }
+   .background-two,
+   .background-one,
+   .background-three,
+   .background-four {
+      height: 315px;
+      font-size: 20px;
+      line-height: 27px;
+   }
+   .service {
+      width: calc(50% - 5.5px);
+   }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+   .service {
+      width: 100%;
+   }
+   .service-block {
+      width: 100%;
+      margin-left: 0px;
+      padding-left: 15px;
+      padding-right: 10px;
+   }
+   .services {
+      display: flex;
+      flex-wrap: wrap;
+   }
+   .service > h3 {
+      padding-bottom: 60px;
+   }
+   .order-service {
+      margin-top: 0px;
+   }
+}

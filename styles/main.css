@@ -1,0 +1,122 @@
+.main-text h1 {
+   width: 956px;
+   font-weight: 400;
+   font-size: 60px;
+   line-height: 60px;
+   font-style: normal;
+   padding-bottom: 30px;
+}
+.image-text {
+   background-image: url(../first_background.png);
+   background-size: cover;
+   width: 1150px;
+   height: 500px;
+   position: relative;
+   margin-bottom: 150px;
+}
+.image-text p {
+   position: absolute;
+   width: 430px;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 27px;
+   left: 40px;
+   bottom: 40px;
+   color: white;
+}
+.about-text {
+   padding-bottom: 150px;
+}
+.about-text h2 {
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 25px;
+   text-transform: uppercase;
+   margin-bottom: 30px;
+}
+.about-text h3 {
+   width: 1048px;
+   font-weight: 400;
+   font-size: 45px;
+   line-height: 61px;
+   color: #121212;
+   padding-left: 3px;
+   padding-bottom: 30px;
+}
+.about-text > button {
+   background-color: #ad1818;
+   border: 1px solid #ad1818;
+   border-radius: 5px;
+   color: white;
+   cursor: pointer;
+}
+.about-text > button > p {
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 27px;
+   padding: 18px 34px;
+   font-family: "Manrope", sans-serif;
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1199px) {
+   .main-text {
+      padding-left: 2px;
+   }
+   .image-text {
+      width: 100%;
+      margin-bottom: 120px;
+      height: 400px;
+   }
+   img {
+      width: 100%;
+   }
+   .about-text {
+      padding-bottom: 120px;
+   }
+   .about-text > h3 {
+      width: 690px;
+      font-size: 35px;
+   }
+   .main-text h1 {
+      font-size: 50px;
+      line-height: 60px;
+      max-width: 802px;
+      width: 100%;
+   }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+   .container {
+      width: 100%;
+      padding-left: 15px;
+   }
+   .image-text p {
+      width: 312px;
+      left: 15px;
+      bottom: 15px;
+   }
+   .main-text {
+      padding-left: 2px;
+   }
+   .image-text {
+      width: 100%;
+      margin-bottom: 120px;
+      height: 304px;
+      margin-bottom: 80px;
+   }
+   img {
+      width: 100%;
+   }
+   .about-text {
+      padding-bottom: 80px;
+   }
+   .about-text > h3 {
+      width: 100%;
+      font-size: 22px;
+      line-height: 30px;
+   }
+   .main-text h1 {
+      font-size: 30px;
+      line-height: 32px;
+      width: 100%;
+      padding-bottom: 25px;
+   }
+}

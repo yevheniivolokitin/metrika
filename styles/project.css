@@ -1,0 +1,97 @@
+.projects h2 {
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 25px;
+   text-transform: uppercase;
+   padding-bottom: 30px;
+}
+.project h3 {
+   padding: 13px 0px;
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 41px;
+}
+.project p {
+   padding-top: 2px;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 27px;
+   color: #ad1818;
+   padding-bottom: 90px;
+   padding-left: 1px;
+   cursor: pointer;
+}
+.projects > button {
+   width: 1150px;
+   height: 153px;
+}
+.projects > button > p {
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 41px;
+   font-family: "Manrope", sans-serif;
+}
+.projects > button {
+   background-color: white;
+   color: #ad1818;
+   border: 1px solid #ad1818;
+   border-radius: 5px;
+   margin-bottom: 150px;
+}
+.projects > button:hover {
+   background-color: #ad1818;
+   color: white;
+   cursor: pointer;
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1199px) {
+   .projects > button {
+      width: 100%;
+   }
+   .project > h3 {
+      font-size: 25px;
+      padding: 10px 0px;
+   }
+   .project > p {
+      padding: 0px;
+   }
+   .project {
+      padding-top: 0px;
+      padding-bottom: 80px;
+   }
+   .project:nth-last-child(1) {
+      padding-bottom: 102px;
+   }
+   .project > img {
+      height: 450px;
+   }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+   .projects > button {
+      width: 100%;
+      height: 100px;
+   }
+   .projects > button > p {
+      font-size: 22px;
+      line-height: 30px;
+   }
+   .project > h3 {
+      font-size: 18px;
+      line-height: 25px;
+      padding: 10px 0px;
+   }
+   .project > p {
+      font-size: 16px;
+      line-height: 22px;
+      padding-bottom: 0px;
+   }
+   .project {
+      padding-top: 0px;
+      padding-bottom: 49px;
+   }
+   .project:nth-last-child(1) {
+      padding-bottom: 60px;
+   }
+   .project > img {
+      height: 250px;
+   }
+}
