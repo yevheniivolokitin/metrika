@@ -5,6 +5,7 @@
 @import url(./project.css);
 @import url(./service.css);
 @import url(./reviews.css);
+@import url(./gallery.css);
 body {
    font-family: "Manrope", sans-serif;
    letter-spacing: -0.03em;
