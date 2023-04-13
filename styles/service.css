@@ -148,5 +148,7 @@
    .order-service {
       margin-top: 0px;
       height: 100px;
+      font-size: 22px;
+      line-height: 30px;
    }
 }
