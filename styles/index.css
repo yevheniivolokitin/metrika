@@ -6,6 +6,9 @@
 @import url(./service.css);
 @import url(./reviews.css);
 @import url(./gallery.css);
+html {
+   scroll-behavior: smooth;
+}
 body {
    font-family: "Manrope", sans-serif;
    letter-spacing: -0.03em;
