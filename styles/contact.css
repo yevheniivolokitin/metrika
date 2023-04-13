@@ -1,53 +1,88 @@
-.container-contact {
+.contact_wrapper {
    width: 100%;
-   height: 717px;
-   background-image: url(../second_background.png);
-   position: relative;
-   background-size: cover;
-   margin-bottom: 150px;
 }
-.container-contact h3 {
-   position: absolute;
-   left: 145px;
-   bottom: 60px;
-   font-weight: 400;
-   font-size: 30px;
-   line-height: 41px;
-   color: #ffffff;
-   width: 443px;
+.contact_container {
+   padding-left: 124px;
+   padding-top: 150px;
 }
-.contact {
-   margin-left: 144px;
-}
-.contact img {
-   margin-left: -4px;
-   margin-bottom: 10px;
-}
-.contact p {
-   font-weight: 400;
+.contact_title h2 {
    font-size: 18px;
    line-height: 25px;
    text-transform: uppercase;
-   margin-bottom: 32px;
+   padding-bottom: 24px;
 }
-.contact h2 {
-   font-weight: 400;
+.contacts {
+   display: flex;
+}
+.contact-tell,
+.contact-mail {
+   position: relative;
+   display: block;
+   padding-right: 104px;
+}
+.contact-tell a,
+.contact-mail a {
    font-size: 60px;
    line-height: 60px;
-   margin-bottom: 30px;
-}
-.contact h3 {
-   font-weight: 400;
-   font-size: 60px;
-   line-height: 60px;
-   padding-bottom: 160px;
-   opacity: 0.5;
-}
-.contact h2 > a,
-h3 > a {
    color: black;
    text-decoration: none;
+   height: 60px;
+   margin-bottom: 150px;
 }
-.contact h3 a:hover {
+.contact-tell > a:hover {
+   opacity: 0.5;
    border-bottom: 1px solid black;
+}
+.contact-mail > a:hover {
+   opacity: 0.5;
+   border-bottom: 1px solid black;
+}
+.icons {
+   padding-bottom: 26px;
+   height: 22px;
+   width: 16px;
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1199px) {
+   .contact_container {
+      padding-left: 16px;
+      padding-top: 120px;
+   }
+   .contact-tell a,
+   .contact-mail a {
+      margin-bottom: 80px;
+      font-size: 45px;
+   }
+   .contact-tell,
+   .contact-mail {
+      padding-right: 114px;
+   }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+   .contacts {
+      display: block;
+   }
+   .contact_container {
+      padding-left: 11px;
+      padding-top: 80px;
+   }
+   .contact-tell a,
+   .contact-mail a {
+      margin-bottom: 80px;
+      font-size: 35px;
+      line-height: 46px;
+   }
+   .contact-tell,
+   .contact-mail {
+      padding-bottom: 20px;
+      padding-right: 0px;
+   }
+   .contact-mail {
+      padding-bottom: 80px;
+   }
+   .icons > img {
+      padding-bottom: 20px;
+   }
+   .contact_title h2 {
+      padding-bottom: 20px;
+   }
 }
