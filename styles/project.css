@@ -13,6 +13,7 @@
 }
 .project > picture > img {
    width: 100%;
+   max-width: 1150px;
 }
 .project p {
    padding-top: 2px;
