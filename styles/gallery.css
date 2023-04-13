@@ -144,4 +144,7 @@
       top: 61px;
       padding-left: 12px;
    }
+   .gallery__control-next {
+      padding-right: 0px;
+   }
 }
