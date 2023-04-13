@@ -11,6 +11,9 @@
    font-size: 30px;
    line-height: 41px;
 }
+.project > picture > img {
+   width: 100%;
+}
 .project p {
    padding-top: 2px;
    font-weight: 400;
@@ -22,7 +25,7 @@
    cursor: pointer;
 }
 .projects > button {
-   width: 1150px;
+   max-width: 1150px;
    height: 153px;
 }
 .projects > button > p {

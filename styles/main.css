@@ -9,7 +9,7 @@
 .image-text {
    background-image: url(../first_background.png);
    background-size: cover;
-   width: 1150px;
+   max-width: 1150px;
    height: 500px;
    position: relative;
    margin-bottom: 150px;
