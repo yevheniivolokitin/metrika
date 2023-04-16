@@ -6,6 +6,7 @@
 @import url(./service.css);
 @import url(./reviews.css);
 @import url(./gallery.css);
+@import url(./popup.css);
 html {
    scroll-behavior: smooth;
 }
