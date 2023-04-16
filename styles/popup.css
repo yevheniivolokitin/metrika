@@ -1,0 +1,145 @@
+.body_fixed {
+   overflow: hidden;
+}
+.popup_container {
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgba(0, 0, 0, 0.8);
+   opacity: 0;
+   visibility: hidden;
+   transition: all 0.2s ease;
+}
+.order-service-btn {
+   opacity: 1;
+   visibility: visible;
+}
+.popup_text {
+   padding-top: 94px;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-content: center;
+   justify-content: flex-start;
+   align-items: center;
+   width: 100%;
+}
+.form_popup {
+   width: 100%;
+}
+
+.input_popup {
+   font-size: 25px;
+   line-height: 34px;
+   width: 80%;
+   height: 44px;
+   border: none;
+   border-bottom: 1px solid black;
+   margin-top: 50px;
+   margin-left: 55px;
+   margin-right: 79px;
+}
+.input_popup-first {
+   margin-top: 60px;
+}
+.popup_title {
+   font-size: 45px;
+   line-height: 61px;
+   max-width: 340px;
+   width: 100%;
+   height: 61px;
+}
+.popup_subtitle {
+   font-size: 18px;
+   line-height: 25px;
+   max-width: 450px;
+   width: 100%;
+   padding-top: 4px;
+}
+
+.popup__content {
+   overflow-y: scroll;
+   max-width: 780px;
+   max-height: 710px;
+   width: 100%;
+   height: 100%;
+   background-color: white;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   position: relative;
+   border-radius: 10px;
+}
+.btn_popup-close {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 80%;
+
+   height: 67px;
+   background: #ad1818;
+   border-radius: 5px;
+   margin-top: 80px;
+}
+.btn_popup-close p {
+   font-size: 20px;
+   line-height: 27px;
+   color: white;
+}
+.popup_close-order-service {
+   position: absolute;
+   top: 10px;
+   right: 10px;
+   width: 30px;
+   height: 30px;
+   cursor: pointer;
+   padding: 25px;
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-start;
+}
+.form_popup > p {
+   width: 100%;
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1199px) {
+   .popup__content {
+      padding: 0px 10px;
+   }
+   .popup_close-order-service > img {
+      width: 30px;
+      top: 30px;
+      right: 30px;
+   }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+   .popup__content {
+      margin: 0px 20px;
+   }
+   .input_popup {
+      margin-left: 16px;
+      margin-right: 24px;
+   }
+   .popup_title {
+      font-size: 25px;
+      line-height: 34px;
+      text-align: center;
+      height: 34px;
+   }
+   .popup_subtitle {
+      font-size: 14px;
+      line-height: 19px;
+      text-align: center;
+      max-width: 300px;
+      width: 100%;
+   }
+   .popup_close-order-service > img {
+      width: 30px;
+      top: 30px;
+      right: 30px;
+   }
+}

@@ -147,7 +147,56 @@
                      <h3>Комплектация</h3>
                   </div>
                </div>
-               <button class="order-service">Заказать услугу</button>
+               <button
+                  class="order-service order-service-btn js-order-service-btn"
+               >
+                  Заказать услугу
+               </button>
+               <div class="popup_container js-popup_container">
+                  <div class="popup__content js-popup__content">
+                     <div class="popup_text">
+                        <div class="popup_title">Заказать услугу</div>
+                        <div class="popup_subtitle">
+                           Заполните форму, мы свяжемся с вами в течение суток
+                        </div>
+                        <form action="" class="form_popup">
+                           <p>
+                              <input
+                                 class="input_popup input_popup-first"
+                                 name="name"
+                                 type="text"
+                                 placeholder="Имя"
+                              />
+                           </p>
+                           <p>
+                              <input
+                                 class="input_popup"
+                                 name="gmail"
+                                 type="email"
+                                 placeholder="Электронная почта"
+                              />
+                           </p>
+                           <p>
+                              <input
+                                 class="input_popup"
+                                 name="number"
+                                 type="tel"
+                                 placeholder="Номер телефона"
+                              />
+                           </p>
+                        </form>
+                        <div class="btn_popup-close js-popup_close">
+                           <p>Отправить</p>
+                        </div>
+                     </div>
+
+                     <div
+                        class="popup_close-order-service js-popup_close-order-service"
+                     >
+                        <img src="./resourses/close-popup.png" alt="" />
+                     </div>
+                  </div>
+               </div>
             </div>
          </div>
          <div class="container_reviews">
@@ -314,6 +363,7 @@
             </div>
          </div>
       </footer>
+      <script src="popup.js"></script>
       <script src="gallery.js"></script>
    </body>
 </html>
