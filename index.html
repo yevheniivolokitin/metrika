@@ -16,17 +16,46 @@
       />
    </head>
    <body>
-      <!-- <header>
+      <header class="header">
          <div class="container">
-            <section class="header">
-               <img src="./resourses/logo_metrika.png" alt="" />
-               <a href="#about">о нас </a>
-               <a href="#project">проекты</a>
-               <a href="#service">услуги</a>
-               <a href="#contact">контакты</a>
-            </section>
+            <div class="header_inner">
+               <div class="logo">
+                  <img
+                     src="./resourses/desktop-photo/logo_metrika.png"
+                     alt="logo_metrika"
+                  />
+               </div>
+               <nav class="nav_header">
+                  <a href="#about" class="header_nav_link">о нас</a>
+                  <a href="#project" class="header_nav_link">проекты</a>
+                  <a href="#service" class="header_nav_link">услуги</a>
+                  <a href="#contact" class="header_nav_link">контакты</a>
+               </nav>
+               <div class="burger-btn js-burger-btn"></div>
+            </div>
          </div>
-      </header> -->
+         <div class="burger js-burger">
+            <div class="burger__content js-burger__content">
+               <div class="logo">
+                  <img
+                     src="./resourses/desktop-photo/logo_metrika.png"
+                     alt="logo_metrika"
+                  />
+               </div>
+               <nav class="nav_burger">
+                  <a href="#about" class="burger_nav_link">о нас</a>
+                  <a href="#project" class="burger_nav_link">проекты</a>
+                  <a href="#service" class="burger_nav_link">услуги</a>
+                  <a href="#contact" class="burger_nav_link">контакты</a>
+                  <div class="contact_burger">
+                     <h2>для связи:</h2>
+                     <a href="tel:+79358954535">+7 935 895-45-35</a>
+                     <a target="_blank" href="https://t.me/D9ViJ1">D9ViJ1</a>
+                  </div>
+               </nav>
+            </div>
+         </div>
+      </header>
       <main>
          <div class="container" id="about">
             <div class="main-text">
@@ -363,6 +392,7 @@
             </div>
          </div>
       </footer>
+      <script src="burger.js"></script>
       <script src="popup.js"></script>
       <script src="gallery.js"></script>
    </body>
