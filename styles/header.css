@@ -57,22 +57,23 @@
    visibility: visible;
 }
 .burger__content {
-   width: 50%;
+   width: 30%;
    height: 100%;
    background-color: white;
    display: flex;
    justify-content: center;
    flex-direction: column;
    align-items: flex-start;
+   padding-left: 30px;
 }
 .burger__content > .logo {
    padding-bottom: 50px;
-   align-self: center;
+   align-self: flex-start;
 }
 .nav_burger {
    display: flex;
    flex-direction: column;
-   align-self: center;
+   align-self: flex-start;
    gap: 20px;
    width: 128px;
 }
@@ -113,7 +114,8 @@
 }
 @media (max-width: 767px) {
    .burger__content {
-      width: 70%;
+      width: 80%;
+      max-width: 274px;
    }
    .nav_header {
       display: none;
