@@ -19,6 +19,9 @@
    opacity: 1;
    visibility: visible;
 }
+.input_popup:focus {
+   outline: none;
+}
 .popup_text {
    padding-top: 94px;
    display: flex;
