@@ -128,4 +128,10 @@
       width: 34px;
       height: 34px;
    }
+   .burger-btn_open {
+      background-image: url(../resourses/close-popup.png);
+      z-index: 110;
+      position: fixed;
+      right: 20px;
+   }
 }
